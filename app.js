@@ -1,4 +1,4 @@
-const url = 'https://git.heroku.com/server-signup.git';
+const url = 'https://server-signup.herokuapp.com';
 // const url = 'http://localhost:5000';
 function signUp(){
     var user = {
