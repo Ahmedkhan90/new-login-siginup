@@ -2,9 +2,9 @@ const url = 'https://server-signup.herokuapp.com';
 // const url = 'http://localhost:5000';
 function signUp(){
     var user = {
-        name = document.getElementById('userName').Value,
-        email = document.getElementById('userEmail').value,
-        password = document.getElementById('userPassword').value
+        name: document.getElementById('userName').Value,
+        email: document.getElementById('userEmail').value,
+        password: document.getElementById('userPassword').value
     };
     document.getElementById('userName').Value = "",
     document.getElementById('userEmail').Value = "",
@@ -35,8 +35,8 @@ function logIn(){
         email: Emails,
         password: Passwords
     }));
-    document.getElementById('lemail').value = ""
-    document.getElementById('lpassword').value = ""
+    document.getElementById('email').value = ""
+    document.getElementById('password').value = ""
     Http.onreadystatechange = (e) => {
 
         let JSONres = JSON.parse(Http.responseText)
