@@ -42,9 +42,9 @@ function logIn(){
         let JSONres = JSON.parse(Http.responseText)
 
         document.getElementById("Result").innerText = JSONres.message;
-        document.getElementById("name").innerText = "Name :" + JSONres.name;
+        document.getElementById("userName").innerText = "Name :" + JSONres.name;
         // document.getElementById("fname").innerText = "Father Name :" + JSONres.fname;
-        document.getElementById("email").innerText = "Email :" + JSONres.email;
+        document.getElementById("userEmail").innerText = "Email :" + JSONres.email;
 
 
 
